@@ -51,7 +51,7 @@ const HeroSection = () => {
                 size="large"
                 endIcon={<DownloadIcon />}>
                 <a
-                  href="./setup/X-Verse-1.0-Win.exe"
+                  href="/setup/X-Verse-1.0-Win.exe"
                   target="_blank"
                   download="X-Verse-1.0-Win.exe"
                 >
@@ -65,7 +65,7 @@ const HeroSection = () => {
                 size="large"
                 endIcon={<DownloadIcon />}>
                   <a
-                  href="./setup/X-Verse-1.0-Mac.zip"
+                  href="/setup/X-Verse-1.0-Mac.zip"
                   target="_blank"
                   download="X-Verse-1.0-Mac.zip"
                 >
@@ -133,7 +133,6 @@ const HeroSection = () => {
             width="600px"
           // height="319"
           />
-          <ReactPlayer url='https://www.youtube.com/watch?v=VB5_R9_F8MY' />
         </Box>
       </Stack>
     </Container>
